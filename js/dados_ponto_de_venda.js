@@ -203,7 +203,7 @@ function gerarPontosDeVenda(estadoFiltro, cidadeFiltro, bairroFiltro) {
             div.className = 'ponto_de_venda col-md-10';
 
             const img = document.createElement('img');
-            img.src = "../food-code/images/localizacao.png";
+            img.src = "./images/localizacao.png";
             img.width = 200;
             img.height = 200;
 
