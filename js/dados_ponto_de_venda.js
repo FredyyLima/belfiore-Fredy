@@ -7,7 +7,7 @@ function carregarCidades() {
     };
     
     var cidadeSelect = document.getElementById('cidade');
-    cidadeSelect.innerHTML = '<option value="">Selecione a Cidade</option>';
+    cidadeSelect.innerHTML = '<option value="">Selecione a Cidade...</option>';
     
     if (estado) {
         cidades[estado].forEach(function(cidade) {
@@ -32,7 +32,7 @@ function carregarBairros() {
     };
     
     var bairroSelect = document.getElementById('bairro');
-    bairroSelect.innerHTML = '<option value="">Selecione o Bairro</option>';
+    bairroSelect.innerHTML = '<option value="">Selecione o Bairro...</option>';
     
     if (cidade) {
         bairros[cidade].forEach(function(bairro) {
