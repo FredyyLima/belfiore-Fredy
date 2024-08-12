@@ -50,11 +50,6 @@ function mostrarPontosDeVenda() {
     var bairro = document.getElementById('bairro').value;
     var cidade = document.getElementById('cidade').value;
     var estado = document.getElementById('estado').value;
-    
-        // Verifique se os valores estão sendo capturados corretamente
-        console.log("Estado:", estado);
-        console.log("Cidade:", cidade);
-        console.log("Bairro:", bairro);
 
     gerarPontosDeVenda(estado, cidade, bairro);
 }
@@ -177,15 +172,11 @@ const estabelecimentos = [
 // Função para gerar a lista de pontos de venda
 function gerarPontosDeVenda(estadoFiltro, cidadeFiltro, bairroFiltro) {
 
-    console.log("Gerando pontos de venda para:", estadoFiltro, cidadeFiltro, bairroFiltro);
-
-
-
     const lista = document.getElementById('lista_pontos_de_venda');
     lista.innerHTML = ''; // Limpar a lista antes de adicionar novos itens
 
     let encontrouPontosDeVenda = false;
-
+    var alinhamento ='';
     estabelecimentos.forEach(estabelecimento => {
         // Filtrar com base nos parâmetros fornecidos
         if (
@@ -194,7 +185,8 @@ function gerarPontosDeVenda(estadoFiltro, cidadeFiltro, bairroFiltro) {
             (bairroFiltro === '' || estabelecimento.bairro === bairroFiltro)
         ) {
             encontrouPontosDeVenda = true;
-            var alinhamento = document.querySelector('#pontos_de_venda ul');
+            alinhamento = '';
+            alinhamento = document.querySelector('#pontos_de_venda ul');
 
             alinhamento.style.justifyContent = 'space-between';
             // Criação dos elementos
@@ -261,7 +253,9 @@ function gerarPontosDeVenda(estadoFiltro, cidadeFiltro, bairroFiltro) {
 
                 // Se nenhum ponto de venda foi encontrado, exibe a mensagem
                 if (!encontrouPontosDeVenda) {
-                    var alinhamento = document.querySelector('#pontos_de_venda ul');
+                    
+                    alinhamento = '';
+                    alinhamento = document.querySelector('#pontos_de_venda ul');
 
                     alinhamento.style.justifyContent = 'center';
                     alinhamento.style.textAlign = 'center';

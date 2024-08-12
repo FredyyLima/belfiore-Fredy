@@ -1302,12 +1302,19 @@ footer .block span {
 	justify-content: center;
 }
 
-#pontos_de_venda ul{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin: 0px 50px;
+#pontos_de_venda ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    gap: 10px; /* Define um espaço de 10px entre os itens */
+    margin: 0px 50px;
+    padding: 0; /* Remover padding padrão do <ul> */
+    list-style-type: none; /* Remover marcadores do <ul> */
+}
+
+#pontos_de_venda ul li {
+    flex: 1 1 calc(25% - 10px); /* Define a largura dos itens */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
 .sem_ponto_de_venda {
