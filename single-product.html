@@ -25,6 +25,7 @@
 	<script src="./js/jquery.nicescroll.js"></script>
 	<script src="./js/jquery.scrollUp.min.js"></script>
 	<script src="./js/main.js" type="text/javascript"></script>
+	<script src="./js/carregar_produto.js" type="text/javascript"></script>
 
 	  <!-- Favicons -->
 	  <link href="./images/belfiore_favicon.jpg" rel="icon" width="144px" height="144px">
@@ -186,15 +187,15 @@
 			<div class="row">
 				<div class="col-md-5">
 					<div class="single-product-img">
-						<img src="./images/belfiore_gelato_baunilha.jpg" alt="">
+						<img id="img_produto" src="" alt="">
 					</div>
 
 				</div> <!-- End of /.col-md-5 -->
 				<div class="col-md-4">
 					<div class="block">
 						<div class="product-des">
-							<h4>Gelato Belfiore - Creme Vanilla</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, culpa, esse, magni omnis blanditiis unde vitae in nobis fuga optio numquam at ipsum impedit perspiciatis quia rem consequatur recusandae repudiandae provident nemo voluptatibus corporis ab id iste pariatur ipsam vero porro eos eaque rerum nam dolorum mollitia adipisci. Quaerat, ullam!</p>
+							<h4 id="nome_produto"></h4>
+							<p id="descricao_produto"></p>
 							
 						</div>	<!-- End of /.product-des -->
 						<a href="https://www.ifood.com.br/delivery/sao-paulo-sp/belfiore-gelato-acaipaletas--sorvetes-vila-prudente/8458d44a-d604-492e-8593-d8211f172395" class="btn btn-primary mb-3" id="btn_form">Peça no Ifood</a>
@@ -246,10 +247,7 @@
 					<!-- Tab panes -->
 					<div class="tab-content">
 						<div class="tab-pane active" id="home">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eligendi quidem vel sit expedita nam sint non explicabo magni totam?</p>
-						</div>
-						<div class="tab-pane" id="profile">
-							<p>No customer comments for the moment.</p>
+							<p id="infos_produto"></p>
 						</div>
 					</div>
 				</div>	<!-- End of /.col-md-9 -->
