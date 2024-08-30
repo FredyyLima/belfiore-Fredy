@@ -15,7 +15,7 @@ const produtos = [
             "&nbsp;Fibras alimentares (g)": [2.3,1.4,6],
             "&nbsp;Sódio (mg)": [14,8,0]
         },
-        img: "./images/Açaí BelFrozen Nativo/BELFROZEN_NATIVO.PNG",
+        img: "./images/Acai_BelFrozen_Nativo/BELFROZEN_NATIVO.PNG",
     },
     {
         id: 1,
@@ -41,7 +41,7 @@ const produtos = [
             "&nbsp;Fibras alimentares (g)": [2.3,1.4,6],
             "&nbsp;Sódio (mg)": [14,8,0]
         },
-        img: "./images/Açaí BelFrozen Banana/BELFROZEN_BANANA.PNG",
+        img: "./images/Acai_BelFrozen_Banana/BELFROZEN_BANANA.PNG",
     }
 ];
 
