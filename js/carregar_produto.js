@@ -41,7 +41,7 @@ const produtos = [
             "&nbsp;Fibras alimentares (g)": [2.3,1.4,6],
             "&nbsp;Sódio (mg)": [14,8,0]
         },
-        img: images/BELFROZEN_BANANA.PNG,
+        img: "./images/BELFROZEN_BANANA.PNG",
     }
 ];
 
@@ -66,7 +66,7 @@ window.onload = function() {
         // Preenchendo os elementos do HTML com os dados do produto
         document.getElementById('nome_produto').innerHTML = `<h4>${produtos[index].nome}</h4>`;
         document.getElementById('descricao_produto').innerHTML = `<p>${produtos[index].descricao}</p>`;
-        document.getElementById('img_produto').innerHTML = `<img src="./${produtos[index].img}" width="400px" height="400px">`
+        document.getElementById('img_produto').innerHTML = `<img src="${produtos[index].img}" width="400px" height="400px">`
 
 // Montando a tabela nutricional
 let tabelaHtml = `<table border="1" style="width:100%; text-align:center;">
