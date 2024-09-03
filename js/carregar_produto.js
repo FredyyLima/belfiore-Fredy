@@ -16,7 +16,8 @@ const produtos = [
         '&nbsp;Sódio (mg)': [0,0,0]
         },
         porcao:'3',
-        tamanho:'220ML'
+        tamanho:'220ML',
+        img:'./images/Acai_BelFrozen_Nativo/BELFROZEN_NATIVO 500ML.png'
         },
         {
         id:1,
