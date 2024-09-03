@@ -1,48 +1,43 @@
 const produtos = [
     {
-        id: 0,
-        nome: "BEL FROZEN NATIVO",
-        descricao:"<strong>Ingredientes:</strong> Polpa de açaí, água, base para preparo de sorbet açaí (fibra, edulcorante INS 965i e estabilizantes INS 466, INS 412, INS 415, INS 414 e INS 418) e mistura de corantes artificiais alimentícios (maltodextrina, corantes INS 123 e INS 133 e antiumectante INS 551). <strong>NÃO CONTÉM GLÚTEN.</strong>",
+        id:0,
+        nome:'AÇAÍ NATIVO PREMIUM',
+        descricao:'<strong>Ingredientes: </strong>Polpa de açaí, água, açúcar, açúcar líquido invertido, melhorador de cremosidade (dextrose, açúcar, amido e maltodextrina), mistura de corantes artificiais alimentícios (maltodextrina, corantes INS 123 e INS 133 e antiumectante INS 551) e estabilizantes e emulsificantes INS 415, INS 412 e INS 466.</br> <strong>NÃO CONTÉM GLUTEN</strong> </br><strong>ALÉRGICOS: PODE CONTER LEITE</strong>',
         infos:{
-            "&nbsp;Valor Energético (kcal)": [93,56,3],
-            "&nbsp;Carboidrato (g)":[32,19,6],
-            "&nbsp;&nbsp;Açúcares totais (g)": [0,0],
-            "&nbsp;&nbsp;&nbsp;Açúcares adicionados (g)": [0,0,0],
-            "&nbsp;Proteínas (g)": [0,0,0],
-            "&nbsp;&nbsp;Gorduras totais (g)": [1.8,1.1,2],
-            "&nbsp;&nbsp;&nbsp;Gorduras saturadas (g)": [0.5,0.3,2],
-            "&nbsp;&nbsp;&nbsp;Gorduras trans (g)": [0,0,0],
-            "&nbsp;Fibras alimentares (g)": [2.3,1.4,6],
-            "&nbsp;Sódio (mg)": [14,8,0]
+        '&nbsp;Valor energético (kcal)': [100,60,3],
+        '&nbsp;Carboidratos (g)': [21,13,4],
+        '&nbsp;&nbsp;Açúcares totais (g)': [17,10],
+        '&nbsp;&nbsp;&nbsp;Açúcares adicionais (g)': [17,10,32],
+        '&nbsp;Proteínas (g)': [0,0,0],
+        '&nbsp;&nbsp;Gorduras totais (g)': [2.2,1.3,2],
+        '&nbsp;&nbsp;&nbsp;Gorduras saturadas (g)': [0.7,0.4,2],
+        '&nbsp;&nbsp;&nbsp;Gorduras trans (g)':[0,0,0],
+        '&nbsp;Fibras alimentares (g)': [2.7,1.6,6],
+        '&nbsp;Sódio (mg)': [0,0,0]
         },
-        img: "./images/Acai_BelFrozen_Nativo/BELFROZEN_NATIVO.PNG",
-    },
-    {
-        id: 1,
-        nome: "BEL FROZEN BANANA +GUARANÁ",
-        descricao:"<strong>Ingredientes:</strong> Polpa de açaí, água, açúcar, açúcar líquido invertido,\
-         melhorador de cremosidade (dextrose, açúcar, amido e maltodextrina), pó para gelados comestíveis\
-          sabor banana (açúcar, amido de milho (Bacillus thuringiensis, Streptomyces viridochromogenes,\
-           Agrobacterium tumefaciens, Zea mays, Sphingobium herbicidorovans, Diabrotica virgifera, Dicossoma sp,\
-            Thermoccocales spp., Bacillus substilis, Stenotrophomonas maltophilia), aromatizante sintético idêntico\
-             ao natural, corantes artificiais: INS 110 e <strong>amarelo tartrazina (INS 102)</strong>), extrato natural de guaraná,\
-              aroma idêntico natural guaraná, mistura de corantes artificiais alimentícios (maltodextrina,\
-               corantes INS 123 e INS 133 e antiumectante INS 551), ácido cítrico e estabilizantes e emulsificantes\
-                INS 415, INS 412 e INS 466. Contém sulfito. </br> <strong>NÃO CONTÉM GLÚTEN.</strong> </br> <strong>ALÉRGICOS: PODE CONTER LEITE</strong>",
+        porcao:'3',
+        tamanho:'220ML'
+        },
+        {
+        id:1,
+        nome:'AÇAÍ NATIVO PREMIUM',
+        descricao:'<strong>Ingredientes: </strong>Polpa de açaí, água, açúcar, açúcar líquido invertido, melhorador de cremosidade (dextrose, açúcar, amido e maltodextrina), mistura de corantes artificiais alimentícios (maltodextrina, corantes INS 123 e INS 133 e antiumectante INS 551) e estabilizantes e emulsificantes INS 415, INS 412 e INS 466.</br> <strong>NÃO CONTÉM GLUTEN</strong>',
         infos:{
-            "&nbsp;Valor Energético (kcal)": [93,56,3],
-            "&nbsp;Carboidrato (g)":[32,19,6],
-            "&nbsp;&nbsp;Açúcares totais (g)": [0,0],
-            "&nbsp;&nbsp;&nbsp;Açúcares adicionados (g)": [0,0,0],
-            "&nbsp;Proteínas (g)": [0,0,0],
-            "&nbsp;&nbsp;Gorduras totais (g)": [1.8,1.1,2],
-            "&nbsp;&nbsp;&nbsp;Gorduras saturadas (g)": [0.5,0.3,2],
-            "&nbsp;&nbsp;&nbsp;Gorduras trans (g)": [0,0,0],
-            "&nbsp;Fibras alimentares (g)": [2.3,1.4,6],
-            "&nbsp;Sódio (mg)": [14,8,0]
+        '&nbsp;Valor energético (kcal)': [100,60,3],
+        '&nbsp;Carboidratos (g)': [21,13,4],
+        '&nbsp;&nbsp;Açúcares totais (g)': [17,10],
+        '&nbsp;&nbsp;&nbsp;Açúcares adicionais (g)': [17,10,32],
+        '&nbsp;Proteínas (g)': [0,0,0],
+        '&nbsp;&nbsp;Gorduras totais (g)': [2.2,1.3,2],
+        '&nbsp;&nbsp;&nbsp;Gorduras saturadas (g)': [0.7,0.4,2],
+        '&nbsp;&nbsp;&nbsp;Gorduras trans (g)':[0,0,0],
+        '&nbsp;Fibras alimentares (g)': [2.7,1.6,6],
+        '&nbsp;Sódio (mg)': [0,0,0]
         },
-        img: "./images/BELFROZEN_BANANA.PNG",
-    }
+        porcao:'8',
+        tamanho:'500ML',
+        img:'./images/Acai_BelFrozen_Nativo/BELFROZEN_NATIVO 500ML.png'
+        },
 ];
 
 // Este é o código que deve ser adicionado à página inicial, onde o produto é selecionado
@@ -64,7 +59,7 @@ window.onload = function() {
    console.log(produtos[index].img)
     if (index > -1) {
         // Preenchendo os elementos do HTML com os dados do produto
-        document.getElementById('nome_produto').innerHTML = `<h4>${produtos[index].nome}</h4>`;
+        document.getElementById('nome_produto').innerHTML = `<h4>${produtos[index].nome} - ${produtos[index].tamanho}</h4>`;
         document.getElementById('descricao_produto').innerHTML = `<p>${produtos[index].descricao}</p>`;
         document.getElementById('img_produto').innerHTML = `<img src="${produtos[index].img}" width="400px" height="400px">`
 
@@ -73,7 +68,7 @@ let tabelaHtml = `<table border="1" style="width:100%; text-align:center;">
 <thead>
     <tr>
         <th colspan="4" style="text-align: center">INFORMAÇÃO NUTRICIONAL </br>
-        Porção por embalagem: Cerca de 8</br>
+        Porção por embalagem: Cerca de ${produtos[index].porcao}</br>
             Porção: 60 g (1 bola)
         </th>
     </tr>
