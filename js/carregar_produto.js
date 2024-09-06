@@ -9,7 +9,7 @@ const produtos = [
         '&nbsp;&nbsp;Açúcares totais (g)': [17,10],
         '&nbsp;&nbsp;&nbsp;Açúcares adicionais (g)': [17,10,32],
         '&nbsp;Proteínas (g)': [0,0,0],
-        '&nbsp;&nbsp;Gorduras totais (g)': [2+","+2,1+","+3,2],
+        '&nbsp;&nbsp;Gorduras totais (g)': [2+','+2,1+','+3,2],
         '&nbsp;&nbsp;&nbsp;Gorduras saturadas (g)': [0+","+7,0+","+4,2],
         '&nbsp;&nbsp;&nbsp;Gorduras trans (g)':[0,0,0],
         '&nbsp;Fibras alimentares (g)': [2+","+7,1+","+6,6],
