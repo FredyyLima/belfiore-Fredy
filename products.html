@@ -25,6 +25,7 @@
 	<script src="./js/jquery.nicescroll.js"></script>
 	<script src="./js/jquery.scrollUp.min.js"></script>
 	<script src="./js/main.js" type="text/javascript"></script>
+	<script src="./js/carregar_produto.js" type="text/javascript"></script>
 
 	  <!-- Favicons -->
 	  <link href="./images/belfiore_favicon.jpg" rel="icon" width="144px" height="144px">
@@ -144,14 +145,7 @@
 		    </div> <!-- End of /.navbar-header -->
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav nav-main">
-		        	<li><a href="index.html">PÁGINA INICIAL</a></li>
-					<li class="active"><a href="products.html">PRODUTOS</a></li>
-					<li><a href="about-us.html">SOBRE NÓS</a></li>
-					<li><a href="trabalhe_conosco.html">TRABALHE CONOSCO</a></li>
-					<li><a href="pontos_de_venda.html">PONTOS DE VENDA</a></li>
-					<li><a href="representantes.html">REPRESENTANTES</a></li>
-					<li><a href="blog.html">CONTATO</a></li>
+				<ul class="nav navbar-nav nav-main" id="menu_header">
 		        </ul> <!-- End of /.nav-main -->		    </div>	<!-- /.navbar-collapse -->
 		</div>	<!-- /.container-fluid -->
 	</nav>	<!-- End of /.nav -->
@@ -182,184 +176,6 @@
 									</div>
 								</div>	<!-- End of /.products -->
 					        </li>
-					        <li>
-					            <div class="products">
-									<a href="single-product.html">
-										<img src="./images/acai_belfrozen_morango.jpg" alt="">
-									</a>
-									<a href="single-product.html">
-										<h4>Açaí Belfrozen - Morango</h4>
-									</a>
-									<div >
-									</div>
-								</div>	<!-- End of /.products -->
-					        </li>
-					        <li>
-					            <div class="products">
-									<a href="single-product.html">
-										<img src="./images/acai_belfrozen_nativo.jpg" alt="">
-									</a>
-									<a href="single-product.html">
-										<h4>Açaí Belfrozen - Nativo</h4>
-									</a>
-									<div >
-									</div>
-								</div>	<!-- End of /.products -->
-					        </li>
-					        <li>
-					            <div class="products">
-									<a href="single-product.html">
-										<img src="./images/acai_belfrozen_natural.jpg" alt="">
-									</a>
-									<a href="single-product.html">
-										<h4>Açaí Belfrozen - Natural</h4>
-									</a>
-									<div >
-									</div>
-								</div>	<!-- End of /.products -->
-					        </li>
-					        <li>
-					            <div class="products">
-									<a href="single-product.html">
-										<img src="./images/paleta_lospetalos_brigadeiro_na_panela.jpg" alt="">
-									</a>
-									<a href="single-product.html">
-										<h4>Paleta LosPetalos - Brigadeiro na Panela</h4>
-									</a>
-									<div >
-									</div>
-								</div>	<!-- End of /.products -->
-					        </li>
-					        <li>
-					           <div class="products">
-									<a href="single-product.html">
-										<img src="./images/paleta_lospetalos_morango_leite_condensado.jpg" alt="">
-									</a>
-									<a href="single-product.html">
-										<h4>Paleta LosPetalos - Morango com leite condensado</h4>
-									</a>
-									<div >
-									</div>
-								</div>	<!-- End of /.products -->
-					        </li>
-
-							<li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/Paleta_lospetalos_chocolate_belga.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Paleta LosPetalos - Chocolate Belga</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-
-							 <li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/belfiore_gelato_baunilha.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Gelato - Creme vanilla</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-
-							 <li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/belfiore_gelato_chocolate.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Gelato - Chocolate ao leite</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-
-							 <li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/belfiore_gelato_coco.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Gelato - Coco</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-
-							 <li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/picole_belfrutti_coco.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Picolé Belfrutti - Coco</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-
-							 <li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/picole_belfrutti_limao.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Picolé Belfrutti - Limão</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-
-							 <li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/sorbet_acaike_acai_morango.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Sorbet AçaiKe - Açaí com morango</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-
-							 <li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/sorbet_acaike_acai_natural.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Sorbet Açaíke - Açaí Natural</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-
-							 <li>
-								<div class="products">
-									 <a href="single-product.html">
-										 <img src="./images/sortbet_acaike_acai_banana.jpg" alt="">
-									 </a>
-									 <a href="single-product.html">
-										 <h4>Sorbet Açaíke - Açaí com banana</h4>
-									 </a>
-									 <div >
-									 </div>
-								 </div>	<!-- End of /.products -->
-							 </li>
-					        <!--  ... -->
 					    </ul>
 					</div>	<!-- End of /.products-grid -->
 

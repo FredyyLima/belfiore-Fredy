@@ -27,6 +27,7 @@
 	<script src="./js//jquery.scrollUp.min.js"></script>
 	<script src="./js//main.js" type="text/javascript"></script>
 	<script src="./js/dados_ponto_de_venda.js" type="text/javascript"></script>
+	<script src="./js/carregar_produto.js" type="text/javascript"></script>
 
 	  <!-- Favicons -->
 	  <link href="./images/belfiore_favicon.jpg" rel="icon" width="144px" height="144px">
@@ -147,14 +148,7 @@
 		    </div> <!-- End of /.navbar-header -->
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav nav-main">
-		        	<li><a href="index.html">PÁGINA INICIAL</a></li>
-					<li><a href="products.html">PRODUTOS</a></li>
-					<li><a href="about-us.html">SOBRE NÓS</a></li>
-					<li><a href="trabalhe_conosco.html">TRABALHE CONOSCO</a></li>
-					<li class="active"><a href="pontos_de_venda.html">PONTOS DE VENDA</a></li>
-					<li><a href="representantes.html">REPRESENTANTES</a></li>
-					<li><a href="blog.html">CONTATO</a></li>
+				<ul class="nav navbar-nav nav-main" id="menu_header">
 		        </ul> <!-- End of /.nav-main -->		    </div>	<!-- /.navbar-collapse -->
 		</div>	<!-- /.container-fluid -->
 	</nav>	<!-- End of /.nav -->
@@ -194,8 +188,22 @@
 										<label  for="exampleFormControlInput1" class="form-label">Selecione o estado</label>
 										<select name="estado" id="estado" onchange="carregarCidades()" class="form-control">
 											<option value="" disabled selected>Selecione um estado...</option>
-											<option value="SP">SP</option>
+											<option value="AM">AM</option>
+											<option value="AP">AP</option>
+											<option value="BA">BA</option>
+											<option value="CE">CE</option>
+											<option value="GO">GO</option>
+											<option value="MA">MA</option>
+											<option value="MG">MG</option>
+											<option value="MS">MS</option>
+											<option value="PA">PA</option>
+											<option value="PI">PI</option>
 											<option value="PR">PR</option>
+											<option value="RJ">RJ</option>
+											<option value="RS">RS</option>
+											<option value="RN">RN</option>
+											<option value="SC">SC</option>
+											<option value="SP">SP</option>
 										  </select>
 									</div>
 									<div class="mb-4">
