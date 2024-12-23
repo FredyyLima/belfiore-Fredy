@@ -4415,7 +4415,7 @@ function gerarPontosDeVenda(estadoFiltro, cidadeFiltro, bairroFiltro) {
             btn.id = 'btn_form';
             btn.textContent = 'Como chegar?';
             btn.onclick = function() {
-                window.location.href = estabelecimento.link;
+                window.location.href = "https://www.google.com.br/maps";
             };
             
             div.appendChild(btn);

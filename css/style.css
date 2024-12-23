@@ -635,6 +635,9 @@ footer .block span {
 .facebook-icon .fa-facebook {
 	padding: 0px 7px;
 }
+.instagram-icon:hover {
+	background: #0da521;
+}
 .facebook-icon:hover {
 	background: #4965a0;
 }
@@ -651,7 +654,7 @@ footer .block span {
 	background: #3bc1ed;
 }
 .plus-icon:hover {
-	background: #dd4b39;
+	background: #0da521;
 }
 
 /*----------------Cash Out--------------------*/
